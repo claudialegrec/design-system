@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    background: #f1f5f9;
+    width: 100%;
+}
+
+body {
+    color: #64748B;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 22px;
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px){
+    .header .logo:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -13px;
+        right: 0;
+        height: 60px;
+        border-right: 1px solid #E9E9E6;
+    }
+}
